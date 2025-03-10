@@ -16,7 +16,7 @@ public class Palindrome_assignment {
             reversed += word.charAt(x);
         }
 
-        if (word.equals(reversed)) {
+        if (word.equalsIgnoreCase(reversed)) {
             System.out.println(word.toUpperCase() + " is a Palindrome");
         } else {
             System.out.println(word.toUpperCase() + " is not a Palindrome");
